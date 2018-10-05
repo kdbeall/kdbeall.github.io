@@ -4,12 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I grew up in Japan, went to NC State for college, worked as a course assistant for Dr. Enck's [CSC 574](https://www.enck.org) network security class,
+and now am at IBM building developer tools.
