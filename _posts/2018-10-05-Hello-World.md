@@ -5,11 +5,9 @@ title: Where's Python's bag data structure?
 
 I got stuck on an online coding challenge today. I needed a [bag](https://en.wikipedia.org/wiki/Set_(abstract_data_type)#Multiset) data structure. For quick reference, a bag is a generalization of a set. Think of it as a set that may have multiple entries of the same value. I searched Python's documentation for both bag and multiset. I couldn't find what I wanted. So, I wasted a lot of time rolling my own.
 
-However, Python does have its own implementation of a bag-like data structure. It is called [Counter](https://docs.python.org/3.7/library/collections.html#collections.Counter).
+Back to the challenge. The goal of the challenge was to find the minimum number of substitutions to make a string into an anagram of another. For example, if we have strings "ab" and "aa" we'd need to make one substitution. If we had strings "abc" and "aaa" we'd need to make two substitutions. The order of the letters does not matter. A bag makes sense for this problem because we need to find out the difference in the amount of each letter. For example, in "ab" there is one a and one b, but in "aa" there are two a's and one b. A bag allows us to easily compute the difference between the two. 
 
-Here's an example usage of Counter. I rewrote the challenge I completed earlier. The code finds the minimum number of substitutions to make a string into an anagram of another. For example, if we have strings "ab" and "aa" we'd need to make one substitution. If we had strings "abc" and "aaa" we'd need to make two substitutions. The order of the letters does not matter.
-
-Here's my code! I think it's evident that it is fairly concise. I'll leave how it exactly works as an exercise for you.
+It turns out that Python does have its own implementation of the bag data structure. It is called [Counter](https://docs.python.org/3.7/library/collections.html#collections.Counter). I'm scratching my head as to why I did not know about it earlier because using Counter makes this problem extremely concise.
 
     from collections import Counter
 
