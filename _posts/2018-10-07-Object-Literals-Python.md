@@ -19,7 +19,7 @@ Because of this simplicity, JavaScript allows for object literals. You don't nee
     
 Here's two approaches to doing the same in Python.
 
-First, from [Programming Ideas with Jake](https://programmingideaswithjake.wordpress.com/2016/05/07/object-literals-in-python/) we can create an Object class and give it a constructor that puts every attribute-value pair into __dict__. Recall that __dict__ is "a dictionary or other mapping object used to store an object’s (writable) attributes."
+First, from [Programming Ideas with Jake](https://programmingideaswithjake.wordpress.com/2016/05/07/object-literals-in-python/) we can create an Object class and give it a constructor that puts every attribute-value pair into \_\_dict\_\_. Recall that \_\_dict\_\_ is "a dictionary or other mapping object used to store an object’s (writable) attributes."
 
     class Object:
        def __init__(self, **attributes):
@@ -44,8 +44,9 @@ So far so good right? There's a few issues that I see. What if *race* were a muc
             print("Vroom vroom!")
             print("Skrrrrt!")
  
-We can access attributes as follows. 
+We can access and use attributes as we would a typical Python object. 
       
-      Car.race()   
+      Car.model = "Skyline"
+      Car.race()
       
 Why is this possible? Because, in Python, classes themselves are objects!
