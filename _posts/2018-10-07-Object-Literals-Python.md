@@ -36,7 +36,7 @@ So far so good right? There's a few issues that I see. What if *race* were a muc
 
     class Car:
         model = "Skyline"
-        manufactuer = "Nissan"
+        manufacturer = "Nissan"
         year = "1996"
         
         @classmethod
@@ -46,7 +46,8 @@ So far so good right? There's a few issues that I see. What if *race* were a muc
  
 We can access and use attributes as we would a typical Python object. 
       
-      Car.model = "Skyline"
+      Car.model = "Mustang"
+      Car.manufacturer = "Ford"
       Car.race()
       
 Why is this possible? Because, in Python, classes themselves are objects!
