@@ -36,7 +36,7 @@ So far so good right? There's a few issues that I see. What if *race* were a muc
 
     class Car:
         model = "Skyline"
-        manufactuer = "Nissan
+        manufactuer = "Nissan"
         year = "1996"
         
         @classmethod
