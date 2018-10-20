@@ -49,4 +49,5 @@ Bash, I opted to use [case](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/s
     
 The case statements allow for fairly powerful [pattern](http://wiki.bash-hackers.org/syntax/pattern) matching. Python doesn't
 really have a direct equivalent to this. [PEP 275](https://www.python.org/dev/peps/pep-0275/) proposed adding a similar
-feature to Python. However, it was rejected with reasoning that there are already equivalent features in Python.
+feature to Python. However, it was rejected with reasoning that there are already equivalent features in Python. You
+could use dictionaries, use *getattr* to do some dynamic dispatch, or class if/else statements.
