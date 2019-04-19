@@ -8,6 +8,7 @@ In Scrabble, each letter has different values. For example, "A" has a value of o
 
 In Python, you might do something like this.
 
+    {% highlight python %}
     letters_to_score = {
         ("A", "E", "I", "O", "U", "L", "N", "R", "S", "T") : 1,
         ("D", "G") : 2,
@@ -25,12 +26,14 @@ In Python, you might do something like this.
                 if letter in letters:
                     sum += value
         return sum
-        
-        
+    {% endhighlight %}
+
+
 When I tried to create a Bash version of the program, I was unsure of what to do. I could create a dictionary, but
-it seems that there's not really an equivalent of tuples. So, you'd have to have an entry for each individual letter. In 
+it seems that there's not really an equivalent of tuples. So, you'd have to have an entry for each individual letter. In
 Bash, I opted to use [case](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_03.html) statements instead.
 
+    {% highlight shell %}
     letters=${1^^}
     sum=0
     for letter in $(grep -o . <<< $letters); do
@@ -46,7 +49,8 @@ Bash, I opted to use [case](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/s
         esac
     done
     echo $sum
-    
+    {% endhighlight %}
+
 The case statements allow for fairly powerful [pattern](http://wiki.bash-hackers.org/syntax/pattern) matching. Python doesn't
 really have a direct equivalent to this. [PEP 275](https://www.python.org/dev/peps/pep-0275/) proposed adding a similar
 feature to Python. However, it was rejected with reasoning that there are already equivalent features in Python. You
