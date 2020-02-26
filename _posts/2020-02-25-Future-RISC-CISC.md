@@ -17,7 +17,7 @@ grow more complex to support specialized developer needs. However, what happens 
 
 ### Complex Hardware Blurbs and Questions
 * Hardware transactional memory could simplify concurrency. It could make previously tricky [STM](https://queue.acm.org/detail.cfm?id=1454466) a reality. STM can be backed by hardware primitives for increased performance.
-* NUMA-awareness (not to be confused with the Numa Numa song) will be needed. More complex processor topologies are being invented. My understanding is that many operationg systems and other systems software e.g. [Windows](https://www.youtube.com/watch?v=M-Q02b5uvfY) don't take into account differences between AMD's CCX and traditional Intel multiprocessor systems 
+* NUMA-awareness (not to be confused with the Numa Numa song) will be needed. More complex processor topologies are being invented. My understanding is that many operating systems e.g. [Windows](https://www.youtube.com/watch?v=M-Q02b5uvfY) don't take into account differences between AMD's CCX and traditional Intel multiprocessor systems 
 glued together by QPI. Additionally, exotic storage solutions e.g. [3D XPoint](https://en.wikipedia.org/wiki/3D_XPoint) can be used as [Non-volatile main memory](https://en.wikipedia.org/wiki/NVDIMM) which also change assumptions about memory.
 * Will neuromorphic chips e.g. IBM's TrueNorth and Apple Neural Engine become popular?
 * What APIs will be offered to access specialized hardware? My understanding is that Apple's neural engine can't be accessed
