@@ -9,6 +9,8 @@ Initially, it might seem that CISC is dead. On the contrary, CISC is more releva
 we can't rely on steady improvements to general purpose improvements. Instead, hardware will
 grow more complex to support developer needs.
 
+Some food for thought:
+
 * [Why do ARM chips have an instruction with Javascript in the name?](https://stackoverflow.com/questions/50966676/why-do-arm-chips-have-an-instruction-with-javascript-in-the-name-fjcvtzs)
 * [Intel's RDRAND](https://en.wikipedia.org/wiki/RDRAND)
 * [Intel's AVX](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
@@ -22,7 +24,7 @@ grow more complex to support developer needs.
 * NUMA-awareness (not to be confused with the Numa Numa song) will be needed. More complex processor topologies are being invented. My understanding is that many operationg systems and other systems software e.g. [Windows](https://www.youtube.com/watch?v=M-Q02b5uvfY) don't take into account differences between AMD's CCX and traditional Intel multiprocessor systems 
 glued together by QPI.
 
-* Exotic storage solutions e.g. [3D XPoint](https://en.wikipedia.org/wiki/3D_XPoint)
+* Exotic storage solutions e.g. [3D XPoint](https://en.wikipedia.org/wiki/3D_XPoint) can be used as [Non-volatile main memory](https://en.wikipedia.org/wiki/NVDIMM)
 
 * What APIs will be offered to access hardware? My understanding is that Apple's neural engine can't be accessed
 using traditional assembler instructions. You must use [CoreML](https://developer.apple.com/documentation/coreml).
