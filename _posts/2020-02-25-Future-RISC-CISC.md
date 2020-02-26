@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Food for Thought: The Future of RISC vs CISC Philosophies
+title: Draft Post on The Future of Hardware
 ---
 
 Initially, it might seem that CISC is dead. On the contrary, CISC is more relevant than ever because
