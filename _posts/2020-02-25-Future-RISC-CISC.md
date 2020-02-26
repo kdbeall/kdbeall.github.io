@@ -4,7 +4,7 @@ title: Raw Thoughts on The Future of Hardware
 ---
 
 Initially, it might seem that the CISC philosophy is dead. On the contrary, CISC is more relevant than ever because
-of the slowdown of Moore's law. There are only three major companies Intel, TSMC, Samsung left at the bleeding-edge of semiconductor manufacturing, and [we're not prepared for its end](https://www.technologyreview.com/s/615226/were-not-prepared-for-the-end-of-moores-law/). Titans such as [Global Foundries](https://www.anandtech.com/show/13277/globalfoundries-stops-all-7nm-development) are reducing their investment in bleeding-edge technolgies. With that in mind,
+of the slowdown of Moore's law. There are only three major companies Intel, TSMC, Samsung left at the bleeding-edge of semiconductor manufacturing, and [we're not prepared for the end of Moore's law](https://www.technologyreview.com/s/615226/were-not-prepared-for-the-end-of-moores-law/). Titans such as [Global Foundries](https://www.anandtech.com/show/13277/globalfoundries-stops-all-7nm-development) are reducing their investment in bleeding-edge technolgies. With that in mind,
 we can't rely on steady improvements to general purpose improvements. Instead, hardware will
 grow more complex to support developer needs. However, what happens when hardware functionality is added?
 It's not trivial to deprecate hardware functionality. This leads further questioning. Will we
