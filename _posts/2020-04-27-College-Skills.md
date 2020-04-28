@@ -4,7 +4,8 @@ title: The CS 101 Stuff And Other Goodies You Forgot Working in Enterprise
 ---
 
 Working as a software development professional is different than what you
-expected in school. Over time, you can become a bit myopic.
+expected in school. Over time, you can become a bit myopic. Here's my list of the computer science
+undergrad things I've been revisiting.
 
 ### Simply Shameful
 * [Reversing an array in-place](https://en.wikipedia.org/wiki/In-place_algorithm#examples)
