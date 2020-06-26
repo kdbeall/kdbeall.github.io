@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The CS 101 Stuff And Other Goodies You Forgot Working in Enterprise
+title: The Computer Science Stuff And Other Goodies You Forgot Working in Enterprise
 ---
 
 Working as a software development professional is different than what you
