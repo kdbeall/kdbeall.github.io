@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Very Rough Outline: My Evolving Interest in Software
+title: My Evolving Interest in Software
 ---
 
 This is a really rough post! But, I think it gives me a good summary of how I've evolved.
