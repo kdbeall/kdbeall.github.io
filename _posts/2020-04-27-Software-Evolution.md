@@ -4,8 +4,7 @@ title: A Very Rough Outline: My Evolving Interest in Software
 ---
 
 This is a really rough post! But, I think it gives me a good summary of how I've evolved.
-
-I feel my interest in software, programming, information technology has gone through four distinct phases:
+I feel my interest in software, programming, information technology has gone through five distinct phases:
 
 * middle school script kiddie
     * started when I installed Debian on parent's computer; they soon bought me my own computer
@@ -25,7 +24,7 @@ I feel my interest in software, programming, information technology has gone thr
    * learned a decent amount about how routers and the internet works through computer networking technician courses
    * continued using Linux, but didn't update my shell scripts as much
 
-* Early college stagnation
+* early college stagnation
    * flirted with being a mathematician or electrical engineer
    * didn't really focus on internships enough as I should've
    * I should've invested more in learning how to code in high school
@@ -42,7 +41,7 @@ I feel my interest in software, programming, information technology has gone thr
    * primiarly a creator of tools
    * build systems and other gate-kept knowledge are often a blocker
    * code interviews are hard
-   * moved to San Jose from North Carolina
+   * moved to San Jose, California from Durham, North Carolina.
 
 So, this leads me to my current step. I feel, working in industry, algorithms knowledge gets lost in translation.
 I don't mean for this list to be exclusive.  It's more of an indication that working in the industry can be different from an academic environment.
