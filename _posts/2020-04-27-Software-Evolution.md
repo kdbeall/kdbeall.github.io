@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Evolving Interest in Software
+title: My Evolving Interest in Software and Information Technology
 ---
 
 * the middle school script kiddie
@@ -19,7 +19,7 @@ title: My Evolving Interest in Software
    * learned about Python and stuck with it
    * didn't really have any strong mentors
    * learned a decent amount about how routers and the internet works through computer networking technician courses
-   * continued using Linux, but didn't update my shell scripts as much
+   * continued using Linux but didn't update my shell scripts as much (played way too much Civ V, RuneScape, and other games on my gaming desktop)
 
 * early college stagnation
    * flirted with being a mathematician or electrical engineer
