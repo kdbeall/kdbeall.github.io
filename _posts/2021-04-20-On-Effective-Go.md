@@ -28,5 +28,12 @@ the most noteworthy parts of it.
     prop := foo.GetProperty()
     {% endhighlight %}
 
-* [new](https://golang.org/doc/effective_go#allocation_new)
-See this [post](https://groups.google.com/g/golang-nuts/c/kWXYU95XN04/m/iRfB7YEt57UJ) by Rob Pike.
+* [new](https://golang.org/doc/effective_go#allocation_new) "Beginners are confused by the distinction between the allocation routines make and new."
+
+This [post](https://groups.google.com/g/golang-nuts/c/kWXYU95XN04/m/iRfB7YEt57UJ) by Rob Pike describes how new was almost removed.
+
+    {% highlight go %}
+	v := new(int)
+	*v++
+	fmt.Println(*v)
+    {% endhighlight %}
