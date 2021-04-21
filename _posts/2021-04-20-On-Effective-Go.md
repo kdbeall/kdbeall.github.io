@@ -27,3 +27,6 @@ the most noteworthy parts of it.
     // Don't do this
     prop := foo.GetProperty()
     {% endhighlight %}
+
+* [new](https://golang.org/doc/effective_go#allocation_new)
+See this [post](https://groups.google.com/g/golang-nuts/c/kWXYU95XN04/m/iRfB7YEt57UJ) by Rob Pike.
