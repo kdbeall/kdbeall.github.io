@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My personalized "common gotchas" regarding programming in Go
+title: My personalized notes of notable parts of Effective Go
 ---
 
 [Effective Go](https://golang.org/doc/effective_go) is an excellent guide to being fluent in Go. Here's my commentary on
