@@ -1,10 +1,18 @@
 ---
 layout: post
-title: My personalized notes of notable parts of Effective Go
+title: Quick notes on Effective Go
 ---
 
-[Effective Go](https://golang.org/doc/effective_go) is an excellent guide to being fluent in Go. Here's my commentary on
-the most noteworthy parts of it.
+[Effective Go](https://golang.org/doc/effective_go) is an excellent guide to being fluent in Go.
+
+* [Appending a slice to a slice](https://go.dev/doc/effective_go#append)
+
+    {% highlight go %}
+    // Use ...
+    x := []int{1,2,3}
+    y := []int{4,5,6}
+    x = append(x, y...)
+    {% endhighlight %}
 
 * [Short declaration re-assignments](https://golang.org/doc/effective_go#redeclaration) "Err appears in both statements. This duplication is legal: err is declared by the first statement, but only re-assigned in the second."
 
