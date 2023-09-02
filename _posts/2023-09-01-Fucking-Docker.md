@@ -3,6 +3,9 @@ layout: post
 title: Docker Notes
 ---
 
+This is a quick overview of Docker and I'm aiming to largely encapsulate the material held in the Docker Certified Associate exam.
+I might eventually follow-up with a Docker Notes Part II. 
+
 ## Installation and Configuration
 
 ### **Supported Platforms**
