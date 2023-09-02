@@ -93,7 +93,7 @@ This section will be a whopper. I can almost
 - When you run a container without specifying any network options, it attaches to this bridge network.
 - Containers can access each other and the host machine over the bridge network, but need port mapping for external access.
 
-### **User-defined Bridge Network**
+#### **User-defined Bridge Network**
 - Allows containers to communicate with each other.
 - Useful because containers can communicate with each other using container names (DNS-based service discovery).
 
