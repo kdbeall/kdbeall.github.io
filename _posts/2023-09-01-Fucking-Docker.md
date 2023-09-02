@@ -126,13 +126,7 @@ ___
 One of the key principles of Docker containers is their ephemerality. Containers can be stopped, destroyed, and recreated with the assurance that they'll run the same way every time, provided the image remains consistent. Volumes and bind mounts facilitate this by allowing data to be persisted and shared across containers, without baking the data directly into the container image.
 
 ### **Storage Drivers**
-* Docker has the capability to use different storage drivers based on the host system. These drivers handle the details of allocating storage and managing the file system. Some popular storage drivers include:
-- overlay2
-- aufs
-- devicemapper
-- btrfs
-- zfs
-
+* Docker has the capability to use different storage drivers based on the host system. These drivers handle the details of allocating storage and managing the file system. Some popular storage drivers include overlay2, aufs, devicemapper, btrfs, and zfs.
 * The choice of storage driver can influence the performance and the way storage is handled for containers. overlay2 is often recommended for many setups due to its performance characteristics and compatibility.
 
 ### **Volumes**
