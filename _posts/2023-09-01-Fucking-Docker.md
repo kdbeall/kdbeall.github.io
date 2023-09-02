@@ -12,6 +12,8 @@ title: Docker Notes
 ### **Installation**
 Follow whatever instructions for your platform.
 
+___
+
 ### **Post-Installation Steps**
 
 - **Start Docker**:
@@ -25,6 +27,8 @@ Follow whatever instructions for your platform.
 - **User Permissions**:
   - Default: Docker needs root privileges.
   - Linux: Add user to `docker` group to avoid using `sudo` (caution advised).
+
+___
 
 ### **Configuration**
 
@@ -46,6 +50,7 @@ Follow whatever instructions for your platform.
 - **Networking**:
   - Default bridge network for containers.
   - Configuration options include setting default subnet, gateway, and DNS.
+___
 
 ## Image Creation, Management, and Registry
 
@@ -109,9 +114,12 @@ This section will be a whopper. I can almost
 - Remove Network: `docker network rm [network_name]`
 - Connect Container: `docker network connect [network_name] [container_name/id]`
 - Disconnect Container: `docker network disconnect [network_name] [container_name/id]`
+___
 
 ## Storage and Volumes
 Todo
+
+___
 
 ## Security
 Todo
