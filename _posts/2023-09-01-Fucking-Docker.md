@@ -1,0 +1,56 @@
+---
+layout: post
+title: Docker Notes
+---
+
+## Installation and Configuration
+
+### **Post-Installation Steps**
+
+- **Start Docker**:
+  - Desktop platforms: Start Docker Desktop application.
+  - Linux: Ensure Docker service is running.
+
+- **Verify Installation**:
+  - Check version: `docker --version`
+  - Test run: `docker run hello-world`
+
+- **User Permissions**:
+  - Default: Docker needs root privileges.
+  - Linux: Add user to `docker` group to avoid using `sudo` (caution advised).
+
+### **Configuration**
+
+- **Docker Daemon**:
+  - Configuration file: `/etc/docker/daemon.json`
+  - Allows configuration of the Docker daemon behavior.
+
+- **Docker CLI**:
+  - Configured using environment variables like `DOCKER_HOST`.
+
+- **Remote Access**:
+  - Default: Docker listens on a Unix socket.
+  - Caution needed if configuring Docker to listen on a TCP socket for remote access.
+
+- **Storage**:
+  - Uses storage drivers (e.g., overlay2, aufs, btrfs).
+  - Choose based on performance or compatibility.
+
+- **Networking**:
+  - Default bridge network for containers.
+  - Configuration options include setting default subnet, gateway, and DNS.
+
+## Image Creation, Management, and Registry
+Todo
+
+## Orchestration
+Todo
+
+## Networking
+Todo
+
+## Storage and Volumes
+Todo
+
+## Security
+Todo
