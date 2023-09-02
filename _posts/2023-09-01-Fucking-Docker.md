@@ -102,7 +102,7 @@ This section will be a whopper. I can almost
 - Assigns a MAC address to a container, making it appear as a physical device on the network.
 - Useful for applications that need to be directly integrated into the host's physical network.
 
-### **Networking Commands
+### **Networking Commands**
 - List Networks: `docker network ls`
 - Inspect Network: `docker network inspect [network_name]`
 - Create Network: `docker network create --driver [network_driver] [network_name]`
