@@ -87,6 +87,9 @@ ___
 
 ## Networking
 
+### Types of Networks
+There are a varity of networking options in Docker.
+
 ####  **Bridge Network**
 - Default network driver.
 - When you run a container without specifying any network options, it attaches to this bridge network.
@@ -157,4 +160,49 @@ Volumes have several advantages:
 ___
 
 ## Security
-Todo
+
+
+### **Namespaces**
+*C ontainers use namespaces to provide isolation. 
+* Namespaces ensure that containers have their view of the system, without interfering with other containers.
+* Types: PID (process), NET (network), IPC (Interprocess Communication), MNT (mount), UTS (hostname), and USER (UIDs).
+
+### **Control Groups (cgroups)**
+* Limit and monitor resource usage (CPU, memory, I/O, etc.) for containers.
+* Ensure that no single container can monopolize system resources.
+
+### **Capabilities**
+* Linux capabilities allow you to grant certain privileges to processes without giving them full root access.
+* Docker drops many capabilities by default and allows users to add only specific ones, reducing the risk.
+
+### **Secure Computing Mode (seccomp)**
+* Filters system calls a process (or container) is allowed to make, enhancing the confinement of the container.
+
+### **Image Security**
+* Trusted Content: Use trusted base images, preferably from official sources on Docker Hub or other trusted registries.
+* Image Signing: Docker Content Trust (DCT) allows you to sign and verify the integrity of images.
+* Vulnerability Scanning: Tools like Clair can scan Docker images for known vulnerabilities.
+
+#### *Runtime Security*
+* Run containers with read-only file systems when possible to prevent unwanted changes.
+* Limit the capabilities given to containers to only those they strictly need.
+* Use cgroups to limit memory, CPU, and I/O usage for containers.
+
+#### *Networking Security*
+* Enable TLS for the Docker daemon to ensure encrypted and authenticated communication.
+* The Docker daemon socket (/var/run/docker.sock) should be protected and accessible only by trusted users. Exposure can grant full control over Docker.
+* Limit Docker API access, enable user namespaces, and set the default seccomp profile.
+
+### **Orchestration & Cluster Security**
+* In swarm mode or Kubernetes, use RBAC to limit access and actions that users and services can perform.
+* Use Docker secrets or other tools to manage and securely distribute sensitive data.
+* In swarm mode, ensure encrypted communication between nodes using the --opt encrypted flag.
+
+### **Logging & Monitoring**
+* Use centralized logging solutions to monitor container activities.
+* Implement audit logging to keep track of actions performed on the Docker daemon or within the cluster.
+
+### **Updates & Patch Management**
+* Regularly update the Docker engine, services, and containers to benefit from security patches.
+* Keep the host OS patched and minimize its footprint.
+* Use a minimal and security-hardened host OS, like Alpine Linux, CoreOS, or RancherOS.
