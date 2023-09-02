@@ -3,7 +3,7 @@ layout: post
 title: Quick notes on Effective Go
 ---
 
-Here are some noteworthy parts of [Effective Go](https://go.dev/doc/effective_go).
+Here are some interesting parts of [Effective Go](https://go.dev/doc/effective_go).
 
 ## [Appending a slice to a slice](https://go.dev/doc/effective_go#append)
 
