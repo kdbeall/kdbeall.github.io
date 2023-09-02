@@ -5,6 +5,13 @@ title: Docker Notes
 
 ## Installation and Configuration
 
+### **Supported Platforms**
+* Docker Desktop is available for Windows and macOS. It provides an integrated GUI and CLI environment.
+* Docker Server can be installed on many Linux distributions, including Ubuntu, CentOS, Debian, Fedora, and others. It can also be installed on cloud platforms like AWS and Azure.
+
+### **Installation**
+Follow whatever instructions for your platform.
+
 ### **Post-Installation Steps**
 
 - **Start Docker**:
@@ -41,7 +48,28 @@ title: Docker Notes
   - Configuration options include setting default subnet, gateway, and DNS.
 
 ## Image Creation, Management, and Registry
-Todo
+
+### **Dockerfiles**
+- Docker images are often created using a `Dockerfile`.
+- Contains instructions for building the image.
+- Common instructions: `FROM`, `RUN`, `COPY`, `CMD`.
+
+### **Building Images**
+- Use the `docker build` command.
+  ```bash
+  docker build -t my_image_name:my_tag .
+  ```
+### **Listing Images**
+- List available images with `docker images` or `docker image ls`.
+
+### **Removing Images**
+- Remove an image with `docker rmi my_image_name:my_tag`
+
+### **Tagging an Image**
+- Tag an image with `docker tag source_image:tag new_image:new_tag`
+
+### **Inspect an Image**
+- Inspect an image with `docker inspect my_image_name:my_tag`
 
 ## Orchestration
 Todo
