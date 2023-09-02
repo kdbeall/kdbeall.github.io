@@ -10,7 +10,7 @@ title: Docker Notes
 * Docker Server can be installed on many Linux distributions, including Ubuntu, CentOS, Debian, Fedora, and others. It can also be installed on cloud platforms like AWS and Azure.
 
 ### **Installation**
-Follow whatever instructions for your platform.
+* Follow whatever instructions for your platform.
 
 ___
 
@@ -50,6 +50,7 @@ ___
 - **Networking**:
   - Default bridge network for containers.
   - Configuration options include setting default subnet, gateway, and DNS.
+
 ___
 
 ## Image Creation, Management, and Registry
@@ -74,11 +75,15 @@ ___
 ### **Inspect an Image**
 - Inspect an image with `docker inspect my_image_name:my_tag`
 
+___
+
 ## Orchestration
 Not much to say here yet. Kubernetes seems to be the standard.
 
-## Docker Swarm (for exam purposes)
+### Docker Swarm (for exam purposes)
 Todo
+
+___
 
 ## Networking
 This section will be a whopper. I can almost 
@@ -114,6 +119,7 @@ This section will be a whopper. I can almost
 - Remove Network: `docker network rm [network_name]`
 - Connect Container: `docker network connect [network_name] [container_name/id]`
 - Disconnect Container: `docker network disconnect [network_name] [container_name/id]`
+
 ___
 
 ## Storage and Volumes
