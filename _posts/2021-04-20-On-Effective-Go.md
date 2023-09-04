@@ -3,7 +3,9 @@ layout: post
 title: Quick notes on Effective Go
 ---
 
-Here are some interesting parts of [Effective Go](https://go.dev/doc/effective_go).
+Here are some uninteresting parts of Effective Go.
+Effective Go is a little tour of the Go programming language.
+You can find it at: [Effective Go](https://go.dev/doc/effective_go).
 
 ## [Appending a slice to a slice](https://go.dev/doc/effective_go#append)
 
