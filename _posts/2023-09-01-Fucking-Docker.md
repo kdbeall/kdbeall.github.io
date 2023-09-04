@@ -83,8 +83,8 @@ ___
 ## Orchestration
 Not much to say here yet. Kubernetes seems to be the standard.
 
-### Docker Swarm (for exam purposes)
-Todo
+### Docker Swarm
+Eventually I'll consider adding this in.
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 
 ### **Namespaces**
-*C ontainers use namespaces to provide isolation. 
+* Containers use namespaces to provide isolation. 
 * Namespaces ensure that containers have their view of the system, without interfering with other containers.
 * Types: PID (process), NET (network), IPC (Interprocess Communication), MNT (mount), UTS (hostname), and USER (UIDs).
 
