@@ -24,9 +24,11 @@ I'm still feel very much like a junior engineer even with almost three years on 
 ### Pragmatic Details of Oncall
 I feel more senior engineers also have speed.
 It's very difficult for me to respond to a page in a timely manner.
+I think it's important to not feel hopeless when paged.
 
 1. Page received and acknowledged
 2. Form a hypothesis
 3. Searches for error strings?
 4. Keeping DataDog dashboards in browser tabs
 5. Reject/accept hypothesis based on data
+6. Take action
